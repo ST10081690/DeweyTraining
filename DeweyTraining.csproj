@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F6EE689-2F87-4E83-A704-A86E559E749E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DeweyTraining</RootNamespace>
+    <AssemblyName>DeweyTraining</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FindingCallNumbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindingCallNumbers.Designer.cs">
+      <DependentUpon>FindingCallNumbers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindingCallNumbers_Instructions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindingCallNumbers_Instructions.Designer.cs">
+      <DependentUpon>FindingCallNumbers_Instructions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IdentifyingAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdentifyingAreas.Designer.cs">
+      <DependentUpon>IdentifyingAreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IdentifyingAreas_Instructions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdentifyingAreas_Instructions.Designer.cs">
+      <DependentUpon>IdentifyingAreas_Instructions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoundEffects.cs" />
+    <Compile Include="LoserMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoserMessage.Designer.cs">
+      <DependentUpon>LoserMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickLearning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickLearning.Designer.cs">
+      <DependentUpon>QuickLearning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReplacingBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReplacingBooks.Designer.cs">
+      <DependentUpon>ReplacingBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Replacing_Instructions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Replacing_Instructions.Designer.cs">
+      <DependentUpon>Replacing_Instructions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartUp.Designer.cs">
+      <DependentUpon>StartUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserData.cs" />
+    <Compile Include="WinnerMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinnerMessage.Designer.cs">
+      <DependentUpon>WinnerMessage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FindingCallNumbers.resx">
+      <DependentUpon>FindingCallNumbers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindingCallNumbers_Instructions.resx">
+      <DependentUpon>FindingCallNumbers_Instructions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IdentifyingAreas.resx">
+      <DependentUpon>IdentifyingAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IdentifyingAreas_Instructions.resx">
+      <DependentUpon>IdentifyingAreas_Instructions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoserMessage.resx">
+      <DependentUpon>LoserMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickLearning.resx">
+      <DependentUpon>QuickLearning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReplacingBooks.resx">
+      <DependentUpon>ReplacingBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Replacing_Instructions.resx">
+      <DependentUpon>Replacing_Instructions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartUp.resx">
+      <DependentUpon>StartUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="WinnerMessage.resx">
+      <DependentUpon>WinnerMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\blue-stars.png" />
+    <Content Include="Images\blue-main-background.png" />
+    <Content Include="Images\book3_image.png" />
+    <Content Include="Images\book1_image.png" />
+    <Content Include="Images\book4_image.png" />
+    <Content Include="Images\book5_image.png" />
+    <Content Include="Images\book2_image.png" />
+    <Content Include="Images\book8_image.png" />
+    <Content Include="Images\book6_image.png" />
+    <Content Include="Images\book9_image.png" />
+    <Content Include="Images\book10_image.png" />
+    <Content Include="Images\book7_image.png" />
+    <Content Include="Images\dark_blue_background.png" />
+    <Content Include="Images\dark_wood.png" />
+    <Content Include="Images\textured-background.png" />
+    <Content Include="Sounds\Background_Song1.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\Background_Song2.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\Loser_Trumpet.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\Winner_Trumpet.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TreeData\CallNumberTree.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

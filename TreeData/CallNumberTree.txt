@@ -1,0 +1,250 @@
+000 Generalities
+   010 Bibliography
+       011 Bibliographies
+       012 Bibliographies of individuals
+       013 Bibliographies of works by specific classes of authors
+       014 Bibliographies of works on specific subjects
+       015 Bibliographies of works from specific places
+   030 General encyclopedic works
+       031 Encyclopedias in American English
+       032 Encyclopedias in English
+       033 Encyclopedias in other Germanic languages
+       034 Encyclopedias in French, Occitan, and Catalan
+       035 Encyclopedias in Italian, Romanian, and related languages
+   050 Magazines, journals, and serials
+       051 Serials in American English
+       052 Serials in English
+       053 Serials in other Germanic languages
+       054 Serials in French, Occitan, and Catalan
+       055 Serials in Italian, Romanian, and related languages
+   090 Manuscripts and rare books
+       091 Manuscripts
+       092 Block books
+       093 Incunabula
+       094 Printed books
+       095 Books notable for bindings
+100 Philosophy and psychology
+   110 Metaphysics
+       111 General metaphysics
+       112 Specific metaphysical topics
+       113 Ontology
+       114 Teleology
+       115 Cosmology
+   140 Specific philosophical schools
+       141 Idealism and related systems
+       142 Critical philosophy
+       143 Bergsonism and intuitionism
+       144 Humanism and related systems
+       145 Sensationalism
+   150 Psychology
+       151 Psychophysiology
+       152 Sensory perception, movement, emotions, and physiological drives
+       153 Mental processes and intelligence
+       154 Subconscious and altered states
+       155 Differential and developmental psychology
+   170 Ethics (moral philosophy)
+       171 Ethical systems
+       172 Political ethics
+       173 Ethics of family relationships
+       174 Occupational ethics
+       175 Ethics of recreation
+200 Religion
+   210 Philosophy and theory of religion
+       211 Concepts of God
+       212 Existence, attributes of God
+       213 Creation
+       214 Theodicy
+       215 Science and religion
+   220 The Bible
+       221 Old Testament
+       222 Historical books of Old Testament
+       223 Poetic books of Old Testament
+       224 Prophetic books of Old Testament
+       225 New Testament
+   230 Christianity and Christian theology
+       231 God
+       232 Jesus Christ and his family
+       233 Humankind
+       234 Salvation and grace
+       235 Spiritual beings
+   270 History of Christianity
+       271 Religious congregations and orders
+       272 Persecutions in history of Christianity
+       273 Doctrinal controversies and heresies
+       274 History of Christianity in Europe
+       275 History of Christianity in Asia
+300 Social sciences
+   320 Political science
+       321 Systems of governments and states
+       322 Relation of state to organized groups and their members
+       323 Civil and political rights
+       324 The political process
+       325 International migration and colonization
+   340 Law
+       341 Law of nations
+       342 Constitutional and administrative law
+       343 Military, tax, trade, industrial law
+       344 Labor, social, education, cultural law
+       345 Criminal law
+   350 Public administration and military science
+       351 Public administration
+       352 General considerations of public administration
+       353 Specialized fields of public administration
+       354 Administration of economy and environment
+       355 Military science
+   370 Education
+       371 Schools and their activities
+       372 Elementary education
+       373 Secondary education
+       374 Adult education
+       375 Curricula
+400 Language
+   410 Linguistics
+       411 Writing systems
+       412 Etymology
+       413 Dictionaries
+       414 Phonology
+       415 Structural systems (Grammar)
+   440 Romance languages
+       441 French
+       442 Italian
+       443 Spanish
+       444 Portuguese
+       445 Romanian
+   450 Italian, Romanian and related languages
+       451 Italian
+       452 Sardinian (Sardu)
+       453 Dalmatian
+       454 Rhaeto-Romanic (Romansh)
+       455 Romanian
+   480 Classical and modern Greek languages
+       481 Classical Greek
+       482 Modern Greek
+       483 Hellenic languages and Greek dialects
+       484 Byzantine and modern Greek
+       485 New Testament Greek
+500 Natural sciences and mathematics
+   510 Mathematics
+       511 General principles of mathematics
+       512 Algebra
+       513 Arithmetic
+       514 Topology
+       515 Analysis
+   520 Astronomy and allied sciences
+       521 Celestial mechanics
+       523 Specific celestial bodies and phenomena
+       525 Earth (Astronomical geography)
+       526 Mathematical geography
+       529 Chronology
+   530 Physics
+       532 Fluid mechanics and Liquid mechanics
+       533 Gas mechanics
+       534 Sound and related vibrations
+       535 Light and related radiation
+       536 Heat
+   570 Life sciences biology
+       575 Specific parts of and systems in plants
+       576 Genetics and evolution
+       577 Ecology
+       578 Natural history of organisms and related subjects
+       579 Microorganisms
+600 Technology
+   610 Medicine and health
+       611 Human anatomy, cytology, histology
+       612 Human physiology
+       613 Personal health and safety
+       615 Pharmacology and therapeutics
+       616 Diseases
+   620 Engineering and allied operations
+       621 Applied physics
+       622 Mining and related operations
+       623 Military and nautical engineering
+       624 Civil engineering
+       625 Engineering of railroads, roads
+   640 Home and family management
+       641 Food and drink
+       642 Meals and table service
+       643 Housing and household equipment
+       644 Household utilities
+       645 Household furnishings
+   650 Management and auxiliary services
+       651 Office services
+       652 Processes of written communication
+       653 Shorthand
+       657 Accounting
+       658 General management
+700 Arts and recreation
+   710 Civic and landscape art
+       711 Area planning
+       712 Landscape architecture
+       714 Water features
+       715 Woody plants
+       717 Structures in landscape architecture
+   760 Graphic arts
+       761 Printmaking and prints
+       763 Lithographic processes and products
+       764 Chromolithography and serigraphy
+       765 Metal engraving
+       767 Etching and drypoint
+   780 Music
+       781 General principles and musical forms
+       782 Vocal music
+       783 Music for single voices; the voice
+       787 Stringed instruments
+       788 Wind instruments
+   790 Sports, games, and entertainment
+       791 Public performances
+       792 Stage presentations
+       793 Indoor games and amusements
+       795 Games of chance
+       796 Athletic and outdoor sports and games
+800 Literature and rhetoric
+   810 American literature in English
+       811 American fiction
+       812 American drama
+       813 American poetry
+       814 American essays
+       815 American speeches
+   820 English and Old English literatures
+       821 English fiction
+       822 English drama
+       823 English poetry
+       824 English essays
+       825 English speeches
+   830 German and related literatures
+       831 German fiction
+       832 German drama
+       833 German poetry
+       834 German essays
+       835 German speeches
+   840 French and related literatures
+       841 French fiction
+       842 French drama
+       843 French poetry
+       844 French essays
+       845 French speeches
+900 History and geography
+   930 History of the ancient world
+       931 China to 420 B.C.
+       932 Egypt to 640 A.D.
+       933 Ancient Greece to 323 A.D.
+       934 South Asia to 647 A.D.
+       935 Mesopotamia to 637 A.D.
+   940 History of Europe
+       941 British Isles
+       942 England and Wales
+       943 Germany and neighboring central European countries
+       944 France and Monaco
+       945 Italian Peninsula and adjacent islands
+   960 History of Africa
+       961 Tunisia and Libya
+       962 Egypt and Sudan
+       963 Ethiopia and Eritrea
+       964 Maghreb countries
+       965 Northwest African countries
+   970 History of North America
+       971 Canada
+       972 Middle America and Mexico
+       973 United States
+       974 Northeastern United States
+       975 Southeastern United States
